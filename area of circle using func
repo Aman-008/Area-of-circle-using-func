@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+float getCircle(float r)
+{
+    float cir = 3.14 * r * r;
+    return cir;
+}
+int main()
+{
+    float r;
+    cin >> r;
+    float ans = getCircle(r);
+    cout << "Area of Circle is : " << ans << endl;
+    return 0;
+}
